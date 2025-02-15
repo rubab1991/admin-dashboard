@@ -1,9 +1,13 @@
 
-import AdminLogin from "./admin/page";
+import React from 'react'
+import AdminLogin from './admin/page'
 
-export default function Home() {
+const page = () => {
   return (
-   <div>
-    <AdminLogin />
-   </div>);
+    <div>
+      <AdminLogin/>
+    </div>
+  )
 }
+
+export default page
